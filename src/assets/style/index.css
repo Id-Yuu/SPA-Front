@@ -1,0 +1,310 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Section */
+#section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 100vh;
+}
+
+.left {
+  flex: 25%;
+}
+
+.right {
+  flex: 75%;
+  position: relative;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.right img {
+  transform: translateY(-90px);
+}
+
+/* Navbar */
+#navbar {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 5px;
+  color: #fff;
+  font-weight: 600;
+}
+
+#navbar ul li a.active {
+  border-bottom: 2px solid;
+}
+
+/* Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10% 40px;
+}
+
+.content .logo {
+  width: 80px;
+  height: 80px;
+  filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.1));
+}
+
+.content .title {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.content .desc {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+  text-align: justify;
+  text-indent: 15px;
+}
+
+.content .contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.content .contact span {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.content .contact span:before {
+  content: "-";
+  display: inline-block;
+  width: 10px;
+}
+
+/* Nav Auth */
+.nav-auth {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 5px 0;
+  gap: 15px;
+}
+
+.nav-auth a {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-auth a.active {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+}
+
+/* Auth Form */
+.label-fiels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+
+.label-fiels a {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #228fa6;
+}
+
+/* Auth Form Login */
+#form-login {
+  display: block;
+  width: 100%;
+}
+
+#form-login .form-field label {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#form-login .form-field {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 5px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+#form-login .form-field input {
+  padding: 5px;
+  background: #f2f2f2;
+  border-radius: 3px;
+  border: none;
+}
+
+#form-login .form-field input:focus {
+  outline: none;
+  background: #dddddd;
+}
+
+#form-login button {
+  display: block;
+  padding: 15px;
+  background: #228fa6;
+  box-shadow: 0px 15px 30px rgba(34, 143, 166, 0.5);
+  border-radius: 3px;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+/* Auth Form Register */
+#form-register {
+  display: block;
+  width: 100%;
+}
+
+#form-register .form-field {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+#form-register button {
+  background: #228fa6;
+  box-shadow: 0px 15px 30px rgba(34, 143, 166, 0.5);
+  border-radius: 3px;
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#form-register .form-field label {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#form-register .form-field input {
+  background: #f2f2f2;
+  border-radius: 3px;
+  border: 0;
+  padding: 5px;
+}
+
+#form-register .form-field input:focus {
+  outline: 0;
+  background: #eee;
+}
+
+/* Footer */
+#footer {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
