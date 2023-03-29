@@ -1,5 +1,6 @@
 {
   "name": "starter-spa",
+  "homepage": "https://id-yuu.github.io/SPA-Front",
   "private": true,
   "version": "0.0.0",
   "type": "module",
