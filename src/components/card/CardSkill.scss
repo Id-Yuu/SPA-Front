@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 310px;
+  height: 100px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  .left {
+    flex: 30%;
+    img {
+      border-radius: 100px;
+      max-width: 50px;
+      max-height: 50px;
+    }
+  }
+  .right {
+    flex: 70%;
+    h1 {
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 23px;
+      color: #000000;
+    }
+    p {
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: #a3a3a3;
+    }
+  }
+}

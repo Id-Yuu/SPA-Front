@@ -1,0 +1,84 @@
+@media screen and (max-width: 768px) {
+  #container {
+    .bg_1 {
+      &::before {
+        border-radius: 42%;
+      }
+    }
+
+    // Home
+    #section-1 {
+      .content {
+        max-width: 90%;
+        margin-top: 20%;
+      }
+      #nav #nav-button {
+        display: none;
+      }
+    }
+
+    // Profile
+    #section-2 {
+      height: auto;
+      margin: 10% auto 0;
+      .profile {
+        color: #fff;
+        .content-profile {
+          display: block;
+          max-width: 90%;
+          .left {
+            max-width: 100px;
+            margin: auto;
+            position: relative;
+            .bg_img {
+              top: 48%;
+              left: -6%;
+              width: 94px;
+              height: 84px;
+            }
+          }
+          .right {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    // Skill
+    #section-3 {
+      height: auto;
+      .content-skill {
+        grid-template-columns: auto;
+        .card {
+          flex-direction: row;
+        }
+      }
+    }
+
+    // Project
+    #section-4 {
+      height: auto;
+      .repo {
+        grid-template-columns: auto;
+        .github {
+          max-width: 100%;
+        }
+      }
+    }
+
+    //Contact
+    #section-5 {
+      display: block;
+      .content-contact {
+        flex-direction: column;
+        .left {
+          flex: none;
+        }
+        .right {
+          flex: none;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

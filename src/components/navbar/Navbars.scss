@@ -1,0 +1,56 @@
+#nav {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  #header {
+    #header-title {
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      color: #fff;
+    }
+  }
+
+  #nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 20px;
+    li {
+      a {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        display: block;
+        padding: 5px 0;
+        color: rgb(255 255 255 / 60%);
+        cursor: pointer;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+  #nav-button {
+    background-color: transparent;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px 25px;
+    border: 1px solid;
+    border-radius: 15px;
+    color: #fce72d;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(252, 232, 46, 0.2);
+    }
+  }
+}

@@ -1,0 +1,55 @@
+#form-field {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 20px;
+  .field-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    .field-input {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      width: 48%;
+    }
+  }
+  .field-input {
+    display: flex;
+    flex-direction: column;
+    label {
+      font-family: "Source Sans Pro";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+    }
+    textarea {
+      width: 100%;
+      resize: vertical;
+    }
+  }
+  button {
+    display: inline-block;
+    width: 110px;
+    padding: 10px;
+    cursor: pointer;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
