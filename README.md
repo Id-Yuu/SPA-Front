@@ -11,6 +11,7 @@ This repo contains the results of slicing UI from Figma Project for Leveling up 
 git clone https://github.com/Id-Yuu/SPA-Front.git --branch 01-Starter-SPA --single-branch
 cd SPA-Front
 npm install
+npm run dev
 ```
 
 ##### Source File
