@@ -1,0 +1,100 @@
+{
+    "basic": [
+        {
+            "icon": "./icon-yes.png",
+            "item": "10 GB storage"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "Unlimited bandwidth"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "3 email accounts"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "24/7 customer support"
+        },
+        {
+            "icon": "./icon-not.png",
+            "item": "Daily backups"
+        },
+        {
+            "icon": "./icon-not.png",
+            "item": "SSL certificate"
+        }
+    ],
+    "professional": [
+        {
+            "icon": "./icon-yes.png",
+            "item": "20 GB storage"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "Unlimited bandwidth"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "5 email accounts"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "24/7 customer support"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "Daily backups"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "SSL certificate"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "Database support"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "Advanced Security Measures"
+        }
+    ],
+    "business": [
+        {
+            "icon": "./icon-yes.png",
+            "item": "50 GB storage"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "Unlimited bandwidth"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "10 email accounts"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "24/7 customer support"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "Daily backups"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "SSL certificate"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "Database support"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "Advanced Security Measures"
+        },
+        {
+            "icon": "./icon-yes.png",
+            "item": "Dedicated IP address"
+        }
+    ]
+}
