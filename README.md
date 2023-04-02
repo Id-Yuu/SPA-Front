@@ -17,6 +17,7 @@ npm run dev
 
 #### Tech Stack
 - React and React-Router
+- JSON local API 
 - TailwindCSS
 - Vitejs
 
