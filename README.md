@@ -14,5 +14,13 @@ npm install
 npm run dev
 ```
 
-##### Source File
+#### Tech Stack
+- React and React-Router
+- Consume API Github
+- Sass
+- ViteJs
+
+
+
+#### Source File
 - [Codedesign by Nauval](https://www.codedesign.dev/challenge/the-starter)
