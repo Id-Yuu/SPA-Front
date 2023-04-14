@@ -13,6 +13,7 @@ This repo contains the results of slicing UI from Figma Project for Leveling up 
 1. [Starter-SPA](https://github.com/Id-Yuu/SPA-Front/tree/01-Starter-SPA)
 2. [Faceless Login Page](https://github.com/Id-Yuu/SPA-Front/tree/02-faceless-login-page)
 3. [Pricy](https://github.com/Id-Yuu/SPA-Front/tree/03-Pricy)
+4. [Tailor](https://github.com/Id-Yuu/SPA-Front/tree/04-tailor)
 
 
 #### Tech Stack
