@@ -21,3 +21,6 @@ This repo contains the results of slicing UI from Figma Project for Leveling up 
 - Sass
 - TailwindCSS
 - Vitejs
+
+#### Contribute to this repository.
+- [Contribute](https://github.com/Id-Yuu/SPA-Front/blob/main/CONTRIBUTING.md)
