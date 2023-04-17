@@ -6,7 +6,7 @@
 
 ## SPA-Front 
 #### Single Page Application Front-End Reactjs
-This repo contains the results of slicing UI from the Figma Project for leveling up my or our coding skills with hands-on design challenges.
+This repo contains the results of slicing UI from the Figma Project for leveling up my, our, or your coding skills with hands-on design challenges.
 ***
 
 #### Check ```Branch``` for the new update
